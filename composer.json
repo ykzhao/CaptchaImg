@@ -1,12 +1,12 @@
 {
-    "name": "zhusai/captcha-img",
+    "name": "ykzhao/captcha-img",
     "description": "thinkphp6 captcha",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
-            "name": "zhusai",
-            "email": "909883663@qq.com"
+            "name": "ykzhao",
+            "email": "527474@qq.com"
         }
     ],
     "minimum-stability": "dev",
