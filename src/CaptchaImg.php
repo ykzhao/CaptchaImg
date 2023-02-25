@@ -311,7 +311,7 @@ class CaptchaImg
             $noiseColor = imagecolorallocate($this->im, mt_rand(150, 225), mt_rand(150, 225), mt_rand(150, 225));
             for ($j = 0; $j < 5; $j++) {
                 // 绘杂点
-                imagestring($this->im, 5, mt_rand(-10, $this->imageW), mt_rand(-10, $this->imageH), $codeSet[mt_rand(0, 29)], $noiseColor);
+                imagestring($this->im, 5, mt_rand(-10, intval($this->imageW)), mt_rand(-10, intval($this->imageH)), $codeSet[mt_rand(0, 29)], $noiseColor);
             }
         }
     }
